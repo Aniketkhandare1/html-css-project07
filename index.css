@@ -1,0 +1,372 @@
+/*card landing page*/
+*{margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+body{
+    padding-top: 20px;
+    background-color:rgb(14, 13, 13);
+    color: white;
+}
+
+nav {
+    width: 95%;
+    color: aliceblue;
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+
+    margin-left: 5%;
+}
+
+.section-1{
+    background-image: url(./assests/backcards.png), url(./assests/frontcards.png);
+    background-size: 550px 450px;
+    background-repeat: no-repeat;
+    background-position-x: 350px, right; 
+    background-position-y:-66px ,top ;
+    padding-top: 40px;
+    margin-left: 5%;
+}
+
+
+.logo{
+    width: 80%;
+}
+
+
+.list{
+    width: 50%;
+    margin-left: 20px;
+}
+
+.second{width: 50%;
+
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 50px;
+    
+}
+
+nav div ul li {
+    list-style-type: none;
+     } 
+
+ .second ul{justify-content: flex-end;
+            margin-left: 25px;
+         
+ }  
+ 
+ .second ul li {padding: 0px 10px 0px 10px;
+
+ }
+ 
+ .second ul li img{position: absolute;
+                  z-index: -1;
+                  
+ }
+ /*hover on nav items */
+ nav li:hover{text-decoration: underline;
+             font-size: larger;
+
+ }
+
+ /* section*/
+ .col-1 { font-family: 'Roboto', sans-serif;
+         font-size:45px;
+          margin-top: 40px;
+   
+
+ }
+
+ .col-1 h1{font-size: 70px;
+
+ }
+.col-1  h1 span{font-family: 'popins', sans-serif;
+                color: rgb(222, 14, 211);
+            
+                font-size:80px;
+}
+ .col-1 p{
+    font-size: small;
+    color:rgb(177, 168, 168);
+    margin-bottom: 80px;
+    margin-top: 20px;
+ }
+
+
+ 
+
+ .col-2 ul li {
+                   list-style-type: none;
+                   margin-left: -85%;
+                   font-size: medium;
+ }
+ #col{margin-top: 60px;
+    display: flex;
+ }
+ .col-3{
+    display: flex;
+
+ }
+ .col-4{
+    display: flex;
+ }
+ #col p {
+         color: white;
+         padding: 0% 15px;
+
+ }
+ .vl {
+    border-left: 1.5px solid white;
+    height: 60px;
+    padding: 0% 15px;
+    margin-left: 15px;
+  }
+
+  #col span{color: rgb(224, 81, 232);
+
+  }
+  
+  .section-2{width: 100%;
+             display: flex;
+             padding-top: 35px;  
+             padding-bottom:35px;
+             background-color: rgb(34, 34, 34);
+
+  }
+
+/*page 2*/
+  .page-2{margin-top:70px ;
+         margin-left: 35px;
+         
+            
+    
+  }
+  .page-2{display: flex;
+
+  }
+   .col-5 h2{
+          font-family: 'Roboto', sans-serif;
+          font-size: 80px;
+          padding-right: 60px;
+   }
+  div .col-5 span{color:rgb(222, 14, 211);
+
+  }
+  div .col-6 p{color: rgb(133, 129, 129);
+               font-size: small;        
+
+  }
+  .col-6{
+         margin-top: 55px;
+  }
+
+.page-3{display: flex;
+        padding-top: 60px;
+        justify-content: center;
+        margin-top: 30px;
+        padding-bottom: 100px ;
+        
+    
+}
+  .col-7{height: 250px;
+         width: 250px;
+         border: solid 1px;
+         border-color: white;
+         margin: 0px 15px;
+         padding-top: 60px;
+         text-align: center;
+         background-color: rgb(32, 30, 30);
+       
+  }
+  .col-7 img{height: 100px;
+             width: 100px;
+            display: block;
+             margin-left: auto;
+             margin-right: auto;
+             margin-top: auto;
+             margin-bottom: 20px;
+
+  }
+  .two{margin-top: -45px;
+       background-color: rgb(88, 84, 84);
+       border: solid 2px;
+       border-color: white;
+
+  }
+
+  .page-4{background-image: linear-gradient(white,pink);
+          padding-top: 60px;
+          height: 900px;
+          width: 100%;
+
+  }
+
+  .page-4 h1{width: 100%;
+           font-family: 'Roboto', sans-serif;
+             color: black;
+             font-weight: 300;
+              text-align: center;
+              font-size:70px ;
+              
+  }
+  
+  .page-4 h3 {color:rgb(243, 25, 232);
+             font-family: 'Open Sans', sans-serif;
+            text-align:center;
+            font-size: 80px;
+            padding-top: 20px;
+              
+
+  }
+  .page-4 p{color: gray;
+            font-size: small;
+            text-align: center;
+            padding-top: 30px;
+
+  }
+
+  .page-4 img{   display: block;
+                margin-left: auto;
+                 margin-right: auto;
+
+  }
+  .page-5{padding-top: 40px;
+          width: 100%;
+          height: 900px;
+          
+
+  }
+  #p5{padding-left: 45px;
+
+  }
+
+  .page-5 h1, h2{width: 100%;
+                padding-top: 10px;
+                font-size: xx-large;
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+               
+                text-align: center;
+  }
+
+  .page-5 p{padding-top: 30px;
+            font-size: small;
+           
+          
+         
+
+  }
+  .grid-container{
+                display: grid;
+                grid-template-columns:repeat(2, 1fr);
+                grid-template-rows: repeat(2, 1fr);
+                column-gap: 20px;
+                row-gap: 20px;
+                padding:10% ;
+                color: aliceblue;
+                margin-left: -20px;
+
+  }
+
+
+   div .col-8{width: 400px;
+              height: 200px;
+              text-align:left ;
+              border: solid 1px;
+              margin: 20px ;
+              background-color: rgb(41, 39, 39);
+              padding:4px;
+
+  }
+   .page-5 .one1{background-color: rgb(116, 112, 112);
+              border: solid 2px;
+
+              
+  }
+  
+      
+ 
+.col-9{
+       padding-top: 80px;
+       height: 500px;
+
+    background-image:url(./assests/Rectangle\ 6774.png),url(./assests/rectangle\ 6773.png);
+    background-size: 100% 350px ;
+    background-repeat: no-repeat;
+    margin-top: 15%;
+
+   
+}
+/* edit*/
+.right{margin-top: 10px;
+              list-style-type: none;
+                   margin-left: 42%;
+                  
+                   font-size: medium;
+
+}
+.col-10{display: flex;
+        margin-top: 30%;
+        margin-bottom: 10%;
+        margin-left: 5%;
+
+
+}
+.img6{margin-top: -15px;
+
+    width: 20%;
+}
+.list2{
+    width: 60%;
+    text-align: center;
+
+}
+.list2 ul li{    list-style-type: none;
+
+}
+
+
+
+/*dots*/
+
+#dots{display: flex;
+      justify-content: center;
+
+}
+.hl{  border:1px;
+    border-radius: 10px;
+    width: 50px;
+    height: 8px;
+   margin-top: 4px;
+   margin-right: 2px;
+  background-color: rgb(220, 60, 217);
+  }
+
+.dot{
+    border: 0;
+    border-radius: 50px;
+    padding: 5px;
+    width: 5px;
+    background-color: rgb(53, 52, 52);
+    margin: 4px;
+}
+
+.dot:hover{
+    background-color:  rgb(220, 60, 217);
+    width: 50px;
+    height: 8px;
+}
+ 
+.hl:hover{background-color: rgb(250, 4, 152);
+         
+}
+/* /* media query@media screen and() {
+    
+}
+*/
+ 
+ 
